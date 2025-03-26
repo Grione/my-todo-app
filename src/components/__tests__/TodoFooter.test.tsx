@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { vi } from 'vitest';
 import { TodoFooter } from '../TodoFooter';
-import { Filter } from '../../types/todo';
 
 describe('TodoFooter', () => {
   const setup = () => {
